@@ -142,6 +142,7 @@ header {
     width: 100%;
     padding: 12px 0;
     z-index: 99;
+    overflow: hidden;
 }
 
 header .logo {
@@ -279,6 +280,7 @@ header .menu ul li .drop-down li .sub-menu li:hover a {
     background-size: cover;
     padding: 350px 0;
     background-attachment: fixed;
+   
 }
 
 
@@ -363,8 +365,6 @@ header .menu ul li .drop-down li .sub-menu li:hover a {
     background-color: var(--secondary-color);
     padding: 150px 112px 100px 112px;
     margin-top: 100px;
-    overflow: hidden;
-    
 }
 
 .product .title {
@@ -386,6 +386,7 @@ header .menu ul li .drop-down li .sub-menu li:hover a {
     font-size: var(--fs60);
     color: var(--white-color);
     text-align: center;
+    line-height: 1;
 }
 
 .product .title p {
@@ -424,7 +425,7 @@ header .menu ul li .drop-down li .sub-menu li:hover a {
     
     padding: 20px;  
     width: 350px;
-    margin: 20px 20px;
+    margin: 20px 10px;
 }
 
 .product .product-card .product-content {
@@ -751,14 +752,12 @@ header .menu ul li .drop-down li .sub-menu li:hover a {
 /* icon start  */
 .icon
 {
-    padding: 35px 45px 0 45px;
+    padding: 30px 45px 0 45px;
 }
 .icon img {
    
-    margin-bottom: 35px;
-    padding: 0 60px;
-   
-   
+    margin-bottom: 20px;
+    padding : 0 30px 0 60px;
     
 }
 
@@ -1042,13 +1041,14 @@ footer .footer-info p {
 }
 
 footer .explore {
-    padding: 230px 150px 130px 150px;
+    padding: 200px 50px 130px 120px;
 }
 
 footer .explore h3 {
     color: var(--primary-color);
     font-size: 30px;
     padding-bottom: 30px;
+    
 }
 
 footer .explore ul li a {
@@ -1070,7 +1070,7 @@ footer .explore ul li a i {
 }
 
 footer .contact {
-    padding: 230px 0 0 0;
+    padding: 200px 0 0 0;
 }
 
 footer .contact h3 {
@@ -1083,7 +1083,7 @@ footer .contact ul li a {
     display: block;
     color: var(--white-color);
     font-size: var(--fs18);
-    /* padding: 8px 0; */
+   
 }
 
 footer .contact ul li {
@@ -1103,7 +1103,8 @@ footer .contact ul li a i {
     color: var(--primary-color);
     font-size: var(--fs14);
 }
-
-
-
 /* footer end  */
+.toggle i
+{
+    color: var(--white-color);
+}
