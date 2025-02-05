@@ -253,13 +253,15 @@
     {
         font-size: 18px;
     }
-    .toggle i
+    .d-none
     {
         display: none;
     }
+    .toggle i
+    {
+        display: flex;
+    }
     
-    
-
 }
 
 @media (max-width:767px) {
