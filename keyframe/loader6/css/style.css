@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1540px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(199, 210, 231);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1 {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    margin: 10px; 
+    animation-name: cross;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.box-2 {
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    margin: 10px;
+    animation-name: cross;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+}
+
+.box-3 {
+    width: 40px;
+    height: 40px;
+    background-color: purple;
+    margin: 10px;
+    animation-name: cross;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+.box-4 {
+    width: 40px;
+    height: 40px;
+    background-color: cornflowerblue;
+    margin: 10px;
+    
+    animation-name: cross;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+    animation-iteration-count: infinite;
+    animation-delay: 2.5s;
+}
+.box-5 {
+    width: 40px;
+    height: 40px;
+   
+    background-color: rgb(161, 73, 46);
+    margin: 10px;
+    animation-name: cross;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+.box-6 {
+    width: 40px;
+    height: 40px;
+    bottom: 0;
+    background-color: rgb(237, 100, 100);
+    margin: 10px;
+    animation-name: cross;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+    animation-iteration-count: infinite;
+    animation-delay: 3.5s;
+}
+.box-7 {
+    width: 40px;
+    height: 40px;
+    bottom: 0;
+    background-color: rgb(109, 100, 237);
+    margin: 10px;
+    animation-name: cross;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+}
+
+
+@keyframes cross {
+    0% {
+        height:50px;
+    }
+
+    50% {
+        height:200px;
+    }
+
+    100% {
+        height:50px;
+    }
+}
+
+/* @keyframes cross2 {
+    0% {
+        
+    }
+
+    50% {
+        
+    }
+
+    100% {
+    }
+}
+
+@keyframes cross3 {
+    0% {
+        
+    }
+
+    50% {
+        
+    }
+
+    100% {
+       
+    }
+}
+
+@keyframes cross4 {
+    0% {
+        
+    }
+
+    50% {
+        
+    }
+
+    100% {
+       
+    }
+} */

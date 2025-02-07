@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container
+{
+    max-width: 1540px;
+}
+.row 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main
+{
+    width: 100%;
+    height:100vh;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.loader
+{
+    width: 200px;
+    height:200px;
+    border: 10px solid rgb(49, 49, 131);
+    
+    border-radius: 50%;
+    border-left-color: rgba(61, 61, 175, 0.164);
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%
+    {
+        border-color: rgb(12, 29, 37);
+        
+        border-width: 20px;
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
